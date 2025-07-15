@@ -1,0 +1,59 @@
+<script>
+    let str = new String();
+
+    str = "Hello World!";
+
+    console.log(str);
+
+    console.log(str.length); //for size of string
+
+    // str = "Hello World!      ";
+    console.log(str.trim()); //removing space form string
+
+    console.log(str[0]); //finding the character on particular string
+
+    console.log(str.indexOf('o')); //finding the index of particular character
+
+    console.log(str.lastIndexOf('W')); //finding the last index of particular character
+
+    console.log(str.includes('ello')); //if this string in the string than it return true or false
+    
+    console.log(str.toLowerCase()); //convert whole string into lowercase
+
+    console.log(str.toLocaleLowerCase()); //convert whole string into lowercase
+
+    console.log(str.toUpperCase()); //convert whole string into uppercase
+
+    console.log(str.toLocaleUpperCase()); //convert whole string into uppercase
+
+    console.log(str.substring(0,5)); //it will find string from 0 to 5
+
+    let c1 = str.indexOf('W');
+    let c2 = str.indexOf('!');
+    console.log(str.substring(c1,c2+1));
+
+    console.log(str.slice(c1,c2+1));
+
+    console.log(str.replace('o','-')); //replace o with - ,
+
+    console.log(str.replaceAll('o','-')); //replace all o with - ,
+
+    console.log(str.startsWith('H')); //if it starts with H than it will return true
+
+    console.log(str.endsWith('.')); //if it ends with . than it will return true
+
+    console.log(str.charAt(1)); //it will provide charactor on index 1
+
+    console.log(str.at(4)); //it will provide charactor on index 4
+
+    console.log(str.substr(0,5)); //it will print string from 0 to 5
+
+    console.log(str.split(' ')); //it will convert string into array
+
+    console.log(str.split(' ').toString()); //it will convert array into string
+
+    console.log(str.split(' ')[0]); //it will print first array
+
+    console.log(str.split(' ')[1]); //it will print second array
+
+</script>
